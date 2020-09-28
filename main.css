@@ -28,7 +28,7 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
@@ -58,7 +58,7 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 50%) {
   header {
     background-color: #ffcc66;
   }
@@ -83,7 +83,7 @@ footer {
 
 
 /*---------- Desktops ----------*/
-@media (min-width: 1200px) {
+@media (min-width: 33.3%) {
   header {
     background-color: #ffc34d;
   }
